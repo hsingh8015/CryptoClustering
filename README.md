@@ -1,1 +1,5 @@
 # CryptoClustering
+
+Bootcamp Module 19
+
+In this challenge, we will analyze cryptocurrency data to determine how 24-hour and 7-day price changes impact clustering outcomes using unsupervised learning. Start by loading and exploring the crypto_market_data.csv file, then normalize the data using StandardScaler() and set the "coin_id" as the index. Utilize the elbow method to determine the optimal number of clusters (k) by calculating and plotting inertia values from k=1 to k=11. Apply K-means clustering with this optimal k on both the original scaled data and the PCA-reduced data, which includes three principal components. Compare the best k-values obtained from both datasets, and evaluate how reducing features with PCA affects clustering results. Visualize the clusters using scatter plots with hvPlot, highlighting the impact of feature reduction on K-means clustering.
